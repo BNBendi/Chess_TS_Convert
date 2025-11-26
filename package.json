@@ -1,0 +1,28 @@
+{
+  "name": "chess_ts_convert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "npx tsc && node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BNBendi/Chess_TS_Convert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BNBendi/Chess_TS_Convert/issues"
+  },
+  "homepage": "https://github.com/BNBendi/Chess_TS_Convert#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/typescript": "^0.4.29",
+    "typescript": "^5.9.3"
+  }
+}
