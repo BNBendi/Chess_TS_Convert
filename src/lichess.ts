@@ -30,8 +30,4 @@ export async function getBestMove(fen: string): Promise<string | null>{
     }
 }
 
-if (require.main === module){
-    const fen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
-
-    getBestMove(fen);
-}
+getBestMove("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
