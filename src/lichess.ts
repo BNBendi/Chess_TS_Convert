@@ -30,4 +30,3 @@ export async function getBestMove(fen: string): Promise<string | null>{
     }
 }
 
-getBestMove("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
